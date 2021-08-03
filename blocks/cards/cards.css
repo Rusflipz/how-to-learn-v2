@@ -1,4 +1,5 @@
 .cards {
+  margin: auto;
     display: flex;
     flex-direction: row;
     position: relative;
