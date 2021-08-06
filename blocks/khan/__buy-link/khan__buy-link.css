@@ -3,5 +3,11 @@
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+    opacity: 1;
+    cursor: pointer;
+}
 
+.khan__buy-link:hover{
+opacity: 0.3;
+transition: 1s;
 }

@@ -1,9 +1,7 @@
+@import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/links-rules/link-rules.css);
-@import url(../blocks/span-accent/span-accent.css);
-@import url(../root/root.css);
-@import url(../vendor/normalize.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__cquare-pic/__cquare-pic.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -11,8 +9,8 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_position/logo_position_header.css);
-@import url(../blocks/logo/_position/logo_position_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
@@ -42,19 +40,6 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
-@import url(../blocks/resources/__logo/_firm/resources__logo_frim_arzamas.css);
-@import url(../blocks/resources/__logo/_firm/resources__logo_frim_n1.css);
-@import url(../blocks/resources/__logo/_firm/resources__logo_frim_polka.css);
-@import url(../blocks/resources/__logo/_firm/resources__logo_frim_strelka.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__author/footer_author.css);
-@import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column-links/__column-links_icons/footer__column-links_icons.css);
-@import url(../blocks/footer/__column-links/__column-links_info/footer__column-links_info.css);
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__columns/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__social/footer__socail.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
@@ -75,3 +60,16 @@
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__title/khan__title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+
